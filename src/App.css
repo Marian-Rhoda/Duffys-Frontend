@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.duffy{
+  
+  background-image:url('./Duffyimages/Picture1.png'),
+                   url('./Duffyimages/Picture1.png');
+  background-position: top right, top left;
+  background-repeat:no-repeat;
+  background-size:300px;
+  height:50%;
+  
+
+}
+
+
+.texte {
+	
+  background: linear-gradient(to right, #d08530 0%, #c90eaa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:2vw;
+
+
+  };
+
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
