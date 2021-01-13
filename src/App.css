@@ -52,6 +52,7 @@
 .texte {
 	
   background: linear-gradient(to right, #d08530 0%, #c90eaa 100%);
+   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size:2vw;
@@ -72,4 +73,31 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+
+
+.hello {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 2em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(226, 40, 127), rgb(250, 185, 245), rgb(223, 8, 176));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }

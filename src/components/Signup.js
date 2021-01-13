@@ -121,7 +121,7 @@ function handleSignup(event) {
                  <FormLabel>
                     Email:
                  </FormLabel>
-                 <Input bg="" type= "email" name= "username" value={email} size="sm" onChange={handleEmailInput} placeholder="..eg..john@gmail.com" />
+                 <Input bg="" type= "Email" name= "email" value={email} size="sm" onChange={handleEmailInput} placeholder="..eg..john@gmail.com" />
 
                  <FormLabel>
                     Password:

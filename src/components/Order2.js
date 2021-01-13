@@ -54,7 +54,7 @@ function Order2() {
                 paymentnumber: pay,
                 order:order
                 }
-                axios.post("http://localhost:4020/orders/Order",newOrders).then(response=>{
+                axios.post("http://localhost:4030/orders/Order",newOrders).then(response=>{
                 setCompleteorder(true)
                 console.log("Welcome to Duffy's organics! Please Login")
             })

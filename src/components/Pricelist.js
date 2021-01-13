@@ -6,13 +6,14 @@ import {
     DrawerOverlay,
     DrawerContent,Button, placement
   } from "@chakra-ui/react"
+  import '../App.css'
 
 function Pricelist() {
 
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <div>
-            <Button colorScheme="pink" onClick={onOpen} variant="link">
+            <Button className="hello" colorScheme="pink" onClick={onOpen} variant="link">
         Pricelist
       </Button>
       <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
